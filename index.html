@@ -13,16 +13,17 @@
 <body>
     <main class="min-h-screen bg-[#010313] bg-[url(images/background.png)] bg-no-repeat bg-center">
         <!-- Home Screen Start-->
-        <section class="home min-h-screen text-white flex justify-center items-center hidden">
+        <section class="home min-h-screen text-white flex justify-center items-center">
             <div class="flex flex-col items-center gap-8">
                 <h1 class="text-8xl uppercase">Alpaha Clash Pro</h1>
             <p>
                 Unleash Your Keyboard Kung Fu : Press “Enter” to Play
             </p>
-            <button class="btn bg-white text-black">Play Now</button>
+            <button onclick="play()" class="btn bg-white text-black">Play Now</button>
             </div>
         </section>
         <!-- Home Screen End -->
+
         <!-- Playground start-->
         <section class="play-ground hidden">
             <div class="flex flex-col items-center gap-20 pt-20">
@@ -93,8 +94,9 @@
     
         </section>
         <!--Playground end  -->
-        <!-- Score Section -->
-        <section class="score flex justify-center items-center min-h-screen">
+
+        <!-- Score Section Start -->
+        <section class="score flex justify-center items-center min-h-screen hidden">
             <div class="text-white text-center space-y-6 bg-[#FFFFFF33] p-4 rounded-lg">
                 <h1 class="text-8xl">
                     <span class="font-extrabold">Score:</span>
@@ -106,6 +108,8 @@
                 </p>
             </div>
         </section>
+        <!-- Score Section End -->
     </main>
+    <script src="scripts/alpha-clash.js"></script>
 </body>
 </html>
