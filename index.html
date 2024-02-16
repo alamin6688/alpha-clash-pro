@@ -12,7 +12,8 @@
 </head>
 <body>
     <main class="min-h-screen bg-[#010313] bg-[url(images/background.png)] bg-no-repeat bg-center">
-        <section class="home min-h-screen text-white flex justify-center items-center">
+        <!-- Home Screen Start-->
+        <section class="home min-h-screen text-white flex justify-center items-center hidden">
             <div class="flex flex-col items-center gap-8">
                 <h1 class="text-8xl uppercase">Alpaha Clash Pro</h1>
             <p>
@@ -21,9 +22,77 @@
             <button class="btn bg-white text-black">Play Now</button>
             </div>
         </section>
+        <!-- Home Screen End -->
+        <!-- Playground start-->
         <section class="play-ground">
+            <div class="flex flex-col items-center gap-20 pt-20">
+                <!-- screen -->
+                <div class="artboard artboard-horizontal phone-6 border-[20px] rounded-2xl border-[#010313CC] bg-[#FFFFFFB3]">
+                    <div class="flex justify-center">
+                        <p class="bg-[#2F2941] px-6 pb-3 rounded-b-xl text-white">
+                            Don't watch keyboard  while playing...
+                        </p>
+                    </div>
+                    <div class="flex justify-center items-center h-full">
+                        <p class="text-black text-9xl font-bold">
+                            Y
+                        </p>
+                    </div>
+                </div>
+                <!-- keyboard start-->
+                <div>
+                    <div class="flex justify-center gap-1 my-1 w-full text-black font-bold">
+                        <kbd class="kbd bg-white">q</kbd>
+                        <kbd class="kbd bg-white">w</kbd>
+                        <kbd class="kbd bg-white">e</kbd>
+                        <kbd class="kbd bg-white">r</kbd>
+                        <kbd class="kbd bg-white">t</kbd>
+                        <kbd class="kbd bg-white">y</kbd>
+                        <kbd class="kbd bg-white">u</kbd>
+                        <kbd class="kbd bg-white">i</kbd>
+                        <kbd class="kbd bg-white">o</kbd>
+                        <kbd class="kbd bg-white">p</kbd>
+                      </div> 
+                      <div class="flex justify-center gap-1 my-1 w-full text-black font-bold">
+                        <kbd class="kbd bg-white">a</kbd>
+                        <kbd class="kbd bg-white">s</kbd>
+                        <kbd class="kbd bg-white">d</kbd>
+                        <kbd class="kbd bg-white">f</kbd>
+                        <kbd class="kbd bg-white">g</kbd>
+                        <kbd class="kbd bg-white">h</kbd>
+                        <kbd class="kbd bg-white">j</kbd>
+                        <kbd class="kbd bg-white">k</kbd>
+                        <kbd class="kbd bg-white">l</kbd>
+                      </div> 
+                      <div class="flex justify-center gap-1 my-1 w-full text-black font-bold">
+                        <kbd class="kbd bg-white">z</kbd>
+                        <kbd class="kbd bg-white">x</kbd>
+                        <kbd class="kbd bg-white">c</kbd>
+                        <kbd class="kbd bg-white">v</kbd>
+                        <kbd class="kbd bg-white">b</kbd>
+                        <kbd class="kbd bg-white">n</kbd>
+                        <kbd class="kbd bg-white">m</kbd>
+                        <kbd class="kbd bg-white">/</kbd>
+                      </div>
+                </div>
+                <!-- keyboard end-->
+                <!-- life score -->
+                <div class="flex justify-between w-3/4">
+                    <button class="btn rounded-full text-white bg-purple-700 px-4">
+                        Life
+                        <img src="images/heart.svg" alt="">
+                        <span>1</span>
+                      </button>
+                      <button class="btn rounded-full text-white bg-purple-700 px-4">
+                        Score
+                        <img src="images/dollar.svg" alt="">
+                        <span>1</span>
+                      </button>
+                </div>
+            </div>
     
         </section>
+        <!--Playground end  -->
         <section class="score">
             
         </section>
